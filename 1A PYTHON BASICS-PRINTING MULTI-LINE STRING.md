@@ -1,34 +1,37 @@
-# Experiment No: 1a Python Basics- Printing Multiline String
+# Experiment No: Write a python program to Add two complex  numbers. Get the inputs using eval().
 
 ## AIM  
-To create a Python program to print the string in multiple lines using triple quotes.
+To write a Python program to add two complex numbers, where inputs are taken using eval() function.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
-3. Use the `print()` function to display the multi-line string.  
-4. Terminate the program.
+
+1.Start the program.
+
+2.Prompt the user to enter the first complex number using eval().
+
+3.Prompt the user to enter the second complex number using eval().
+
+4.Add the two complex numbers.
+
+5.Display the result.
+
+6.End the program.
 
 ## PROGRAM
+
 ```python
-# Reg.No-
-# Name-
+
 # Write your code here
+a=eval(input())
+b=eval(input())
+c=a+b
+print("A is",a)
+print("B is",b)
+print("Sum is",c)
 
-string_single_quotes = '''I am a string literal
-... has more than one
-... line
-... placed inside triple single quotes'''
-
-string_double_quotes = """I am a string literal
-... has more than one
-... line
-... placed inside triple double quotes"""
-
-print(string_single_quotes)
-print(string_double_quotes)
 ```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ae851983-bf06-4ad0-bc9d-6410d59f7c9a)
 
 ## RESULT
-
+Thus, the Python program to add two complex numbers using eval() was successfully executed.
